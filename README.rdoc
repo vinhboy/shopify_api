@@ -47,7 +47,7 @@ ShopifyAPI uses ActiveResource to communicate with the REST web service. ActiveR
 
    Alternatively, you can use #temp to initialize a Session and execute a command
    
-   latest_orders = ShopifyAPI::Session.temp("yourshopname.myshopify.com", token) { ShopifyAPI::Order.find(:all) }
+     latest_orders = ShopifyAPI::Session.temp("yourshopname.myshopify.com", token) { ShopifyAPI::Order.find(:all) }
 
 7. Get data from that shop (returns ActiveResource instances):
 
